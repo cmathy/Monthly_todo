@@ -47,7 +47,7 @@
 			// the contents of the DB once they are all lined up properly.
 			while ($dayNum != date('j')) {
 				$dayNum ++;
-				echo $dayNum . date('j');
+				//echo $dayNum . date('j');
 
 				for ($x = 1; $x <= 8; $x++) {
 					if ($x < 8) {
